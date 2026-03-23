@@ -1,0 +1,47 @@
+name: Story
+description: Describe the high-level requirements or use-cases for robolaunch Cloud Robotics Platform.
+labels: ["story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: "The Story"
+      value: |
+        # [Story Header]
+        [Add story description here.]
+    validations:
+      required: true
+
+  - type: textarea
+    id: notify-teams
+    attributes:
+      label: "Notify Teams"
+      value: |
+        These teams will be notified when this issue is updated: (delete irrelevant teams)
+        - @robolaunch/management-suite
+        - @robolaunch/kubernetes-operators
+        - @robolaunch/kubernetes-infrastructure
+    validations:
+      required: true
+
+  - type: textarea
+    id: internal-issues
+    attributes:
+      label: Internal Issues
+      value: |
+        ### [Robot Operator](https://github.com/robolaunch/robot-operator) - [Kubernetes Operator Development Board](https://github.com/orgs/robolaunch/projects/2/views/1)
+        - [Add new internal issue here]
+
+        ### [Fleet Operator](https://github.com/robolaunch/fleet-operator) - [Kubernetes Operator Development Board](https://github.com/orgs/robolaunch/projects/2/views/1)
+        - [Add new internal issue here]
+
+        ### [Connection Hub Operator](https://github.com/robolaunch/connection-hub-operator) - [Kubernetes Operator Development Board](https://github.com/orgs/robolaunch/projects/2/views/1)
+        - [Add new internal issue here]
+
+        ### [Central Orchestrator](https://github.com/robolaunch/central-orchestrator) - [Management Suite Development Board](https://github.com/orgs/robolaunch/projects/4/views/1)
+        - [Add new internal issue here]
+
+        ### [UI](https://github.com/robolaunch/ui) - [Management Suite Development Board](https://github.com/orgs/robolaunch/projects/4/views/1)
+        - [Add new internal issue here]
+    validations:
+      required: true
